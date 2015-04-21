@@ -132,12 +132,30 @@ footer {
 }
 
 #para {
-  padding-top: 0.1em;
-  padding-bottom: 30em;
+  width: 75%;
+  height: 33em;
+  display: inline-block;
   padding-right: 0.75em;
   padding-left: 0.75em;
   line-height: 150%;
-  margin-left: 15em;
-  margin-right: 15em;
+  margin-left: 10em;
   background-color: white;
 }
+
+#para ul {
+  list-style: none;
+}
+
+#para li{
+  padding-top: 1em;
+  font-family: 'Oswald', serif;
+  font-size: 1.2em;
+  line-height: 0px;
+  height: 40px;
+  margin-left: 3px;
+}
+
+a{
+  color: black;
+}
+

@@ -4,6 +4,7 @@
     padding: none;
     margin: 0px;
     margin-top: 0px;
+    background-color: #F2F2F2;
 }
 
 #main_headline {
@@ -128,4 +129,15 @@ footer {
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
+}
+
+#para {
+  padding-top: 0.1em;
+  padding-bottom: 30em;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+  line-height: 150%;
+  margin-left: 15em;
+  margin-right: 15em;
+  background-color: white;
 }

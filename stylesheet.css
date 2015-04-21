@@ -1,0 +1,110 @@
+.titles, html, body {
+	width: 100%;
+    min-height: 100%;
+    padding: none;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+#main_headline {
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Courier New', serif;
+	font-size: 2.3em;
+}
+
+#sub_headline {
+	text-align: center;
+	font-family: 'Courier New', serif;
+	font-size: 1.2em;
+}
+
+.nav ul {
+	list-style: none;
+	background-color: #696E6D;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.nav li {
+	font-family: 'Oswald', serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #696E6D;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.nav li:active {
+  background-color: #444;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+
+.nav a:hover {
+  background-color: #444;
+}
+
+.nav a:active {
+  background-color: #444;
+}
+
+/* copied while looking at michael greenbergs blog for keeping nav bar formatted */
+@media screen and (min-width: 300px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+.site-footer ul {
+	list-style: none;
+	background-color: #696E6D;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.site-footer li {
+	font-family: 'Oswald', serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #696E6D;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.site-footer li:active {
+  background-color: #444;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+
+.site-footer a:hover {
+  background-color: #444;
+}
+
+.site-footer a:active {
+  background-color: #444;
+}
+
+  .site-footer li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }

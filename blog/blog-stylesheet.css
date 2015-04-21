@@ -50,3 +50,8 @@ body {
 p {
 	text-indent: 50px;
 }
+
+#block-image {
+	padding-top: 1em;
+	text-align: center;
+}

@@ -40,8 +40,13 @@ section {
 	padding-bottom: 0.1em;
 	padding-right: 0.75em;
 	padding-left: 0.75em;
+	line-height: 150%;
 }
 
 body {
 	background-color: #F2F2F2;
+}
+
+p {
+	text-indent: 50px;
 }

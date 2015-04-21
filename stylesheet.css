@@ -65,9 +65,27 @@
     font-size: 1.4em;
   }
 
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #e3e3e3;
+    padding: 0px;
+    margin: 0px;
+}
+
+.site-footer {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+
+}
+
 .site-footer ul {
 	list-style: none;
-	background-color: #696E6D;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -75,36 +93,38 @@
 .site-footer li {
 	font-family: 'Oswald', serif;
 	font-size: 1.2em;
-	line-height: 40px;
+	line-height: 50px;
 	height: 40px;
 	border-bottom: 1px solid #696E6D;
 	display: inline-block;
 	margin-right: -4px;
 }
 
-.site-footer li:active {
+
+ .site-footer li:active {
   background-color: #444;
 }
 
 .site-footer a {
   text-decoration: none;
-  color: #fff;
+  color: #696E6D;
   display: block;
 
 }
 
 .site-footer a:hover {
-  background-color: #444;
+  background-color: #FFF;
 }
 
 .site-footer a:active {
   background-color: #444;
 }
 
+@media screen and (min-width: 300px) {
   .site-footer li {
     width: 120px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-  }
+}

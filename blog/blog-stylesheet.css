@@ -1,0 +1,47 @@
+.titles, html, body {
+	width: 100%;
+    min-height: 100%;
+    padding: none;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+#main_headline {
+	margin-top: 2em;
+  	line-height: 0;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Courier New', serif;
+	font-size: 1.8em;
+}
+
+#sub_headline {
+	text-align: center;
+	font-family: 'Courier New', serif;
+	font-size: 1.2em;
+}
+
+#date {
+	margin-top: -0.5em;
+	margin-bottom: -2.5em;
+	font-family: 'Courier New', serif;
+	font-size: 1em;
+	margin-left: 15.2em;
+}
+
+section {
+	font-family: 'Courier New';
+	text-align: justify;
+	margin-left: 15em;
+	margin-right: 15em;
+	margin-top: 2.7em;
+	background-color: white;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-right: 0.75em;
+	padding-left: 0.75em;
+}
+
+body {
+	background-color: #F2F2F2;
+}

@@ -69,7 +69,6 @@
 
 
 footer {
-    position: absolute;
     left: 0;
     bottom: 0;
     height: 50px;
@@ -83,7 +82,6 @@ footer {
   text-align: center;
   color: white;
   font-family: sans-serif;
-
 }
 
 .site-footer ul {
@@ -133,13 +131,13 @@ footer {
 
 #para {
   width: 75%;
-  height: 33em;
   display: inline-block;
   padding-right: 0.75em;
   padding-left: 0.75em;
   line-height: 150%;
   margin-left: 10em;
   background-color: white;
+  height: 30em;
 }
 
 #para ul {

@@ -54,3 +54,7 @@ p {
 #block-image {
 	padding-top: 1em;
 }
+
+.list_indent li {
+	text-indent: 50px;
+}

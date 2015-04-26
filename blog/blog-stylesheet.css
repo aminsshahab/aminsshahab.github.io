@@ -58,3 +58,11 @@ p {
 .list_indent li {
 	text-indent: 50px;
 }
+
+.nothing {
+	text-indent: none;
+}
+
+.code {
+	text-indent: 75px;
+}

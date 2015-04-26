@@ -60,7 +60,7 @@ p {
 }
 
 .nothing {
-	text-indent: none;
+	text-indent: 0px;
 }
 
 .code {

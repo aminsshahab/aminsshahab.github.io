@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<body>
+<div class="titles">
+  <h1 id="main_headline">Variable Scope</h1>
+  <h4 id="date">5/21/2015</h4>
+ </div> 
+
+  <section>
+    <p>
+    There are various scopes in Ruby when it comes to variables. There are Global Variables, Constant Variables, Instance Variables, Class Variables, and Local Variables.  $global variables have scope throughout the entire program, which is why they are not often used. There aren't many instances where you would need to use a Global variable because the variable name can't be reused in other functions and it's usually best programming practice to have variables only to be accessible by the functions that need to use it. CONSTANT variables are like global variables but they are not meant to be changed while global variables can be changed. @instance variables are variables that are accessible between different functions within a class and they are more commonly used. @@class variables are variables that are accessible between different classes but if you change the variable in one class it also changes in the other class. local_variables are only accessible within the function they are being used in and they are the most common variables along with instance variables because it's good programming practice to use them. The reason for this is because you only wanna give a function access to variables that it needs, so there is a less likely chance to interfere with anything.
+    </p>
+  </section>
+</body>
+

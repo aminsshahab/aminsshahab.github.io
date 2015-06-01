@@ -26,20 +26,20 @@
 	margin-bottom: -2.5em;
 	font-family: 'Courier New', serif;
 	font-size: 1em;
-	margin-left: 15.2em;
+	margin-left: 20em;
 }
 
 section {
 	font-family: 'Courier New';
 	text-align: justify;
-	margin-left: 15em;
-	margin-right: 15em;
+	margin-left: 20em;
+	margin-right: 20em;
 	margin-top: 2.7em;
 	background-color: white;
 	padding-top: 0.1em;
 	padding-bottom: 0.1em;
-	padding-right: 0.75em;
-	padding-left: 0.75em;
+	padding-right: 2em;
+	padding-left: 2em;
 	line-height: 150%;
 }
 

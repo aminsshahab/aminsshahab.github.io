@@ -129,9 +129,8 @@ footer {
     font-size: 1.4em;
 }
 
-#para {
+#li_left {
   width: 75%;
-  display: inline-block;
   padding-right: 0.75em;
   padding-left: 0.75em;
   line-height: 150%;
@@ -140,11 +139,12 @@ footer {
   height: 30em;
 }
 
-#para ul {
+#li_left ul {
   list-style: none;
 }
 
-#para li{
+#li_left li{
+  display: inline-block;
   padding-top: 1em;
   font-family: 'Oswald', serif;
   font-size: 1.2em;
@@ -152,6 +152,8 @@ footer {
   height: 40px;
   margin-left: 3px;
 }
+
+
 
 a{
   color: black;

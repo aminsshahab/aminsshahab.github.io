@@ -144,7 +144,7 @@ footer {
 }
 
 #li_left li{
-  display: inline-block;
+  display: block;
   padding-top: 1em;
   font-family: 'Oswald', serif;
   font-size: 1.2em;
@@ -153,9 +153,40 @@ footer {
   margin-left: 3px;
 }
 
+#li_right li{
+  padding-top: 1em;
+  font-family: 'Oswald', serif;
+  font-size: 1.2em;
+  line-height: 0px;
+  height: 40px;
+  margin-left: 3px;
+}
+
+#li_right ul {
+  list-style: none;
+}
+
+#li_right {
+  display: block; 
+  width: 75%;
+  padding-right: 0.75em;
+  padding-left: 50em;
+  margin-top: -31em;
+  line-height: 150%;
+  margin-left: 10em;
+  height: 30em;
+}
 
 
 a{
   color: black;
+}
+
+#para {
+  padding: 0.5em;
+  position: relative;
+  left: 23em;
+  width: 50%;
+  background-color: white;
 }
 
